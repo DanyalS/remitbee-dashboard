@@ -218,7 +218,7 @@ main {
 
 .button {
   cursor: pointer;
-  display: inline-block;
+  display: inline-block; 
   width: auto;
   margin: 0 auto;
   -webkit-transition: all .7s ease;
@@ -292,7 +292,7 @@ main {
 }
 
 nav {
-  padding-top: 30px;
+  padding-top: 53px;
 }
 
 .sidebar-list {
