@@ -185,6 +185,18 @@ h1 + p, p + p {
   }
 }
 
+#footer {
+  position: fixed;
+  bottom: 20px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1600px) {
+  #footer {
+    display: none;
+  }
+}
+
 /* */
 main {
   z-index: 2;
