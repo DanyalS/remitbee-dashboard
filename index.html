@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Remitbee</title>
+  <link rel="icon" type="img/png" href="images/icon.png">
+
+</head>
+
+<body>
+
+  <a href="#"><img id="home-logo" src="images/icon.png"></a>
+  <a href="#"><img id="home-name" src="images/name.jpg"></a>
+
+  <div class="nav-right visible-xs">
+    <div class="button" id="btn">
+      <div class="bar top"></div>
+      <div class="bar middle"></div>
+      <div class="bar bottom"></div>
+    </div>
+  </div>
+
+  <!-- nav-right -->
+  <main>
+
+    <div id="dashboard">
+      <h1 class="title">What would you like to do today?</h1> 
+
+      <div id="app" class="container">
+        <card data-image="images/send-money.jpg">
+          <h1 slot="header" class="card-title">Send Money</h1>
+          <p slot="content">Send money to the country of your choice.</p>
+        </card>
+        <card data-image="images/exchange-money.jpg">      
+          <h1 slot="header" class="card-title">Exchange Money</h1>
+          <p slot="content">Exchange money from one currency to another.</p>
+        </card>
+        <card data-image="images/group-send.jpg">      
+          <h1 slot="header" class="card-title-sm">Group Send</h1>
+          <p slot="content">Send money to multiple people.</p>
+        </card>
+        <card data-image="images/wallet.jpg">      
+          <h1 slot="header" class="card-title-sm">My Wallet</h1>
+          <p slot="content">Your wallet contains your balance and other stuff.</p>
+        </card>
+        <card data-image="images/rates2.jpg">     
+         <h1 slot="header" class="card-title-sm">Rates</h1>
+         <p slot="content">Check up-to-date currency rates.</p>
+       </card>
+       <card data-image="images/recipients.jpg">     
+        <h1 slot="header" class="card-title-sm">Recipients</h1>
+        <p slot="content">Check who is getting your money.</p>
+      </card>
+      <card data-image="images/money.jpg">     
+        <h1 slot="header" class="card-title">Request Money</h1>
+        <p slot="content">Request money from someone you know.</p>
+      </card>
+      <card data-image="images/money2.jpg">     
+        <h1 slot="header" class="card-title-sm">More</h1> 
+        <p slot="content">Click for more options.</p>
+      </card>
+    </div>
+  </div>
+
+  <nav>
+    <div class="nav-right hidden-xs">
+      <div class="button" id="btn">
+        <div class="bar top"></div>
+        <div class="bar middle"></div>
+        <div class="bar bottom"></div>
+      </div>
+    </div>
+    <!-- nav-right -->
+  </nav>
+
+</main>
+
+<div class="sidebar">
+  <ul class="sidebar-list">
+    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Home</a></li>
+    <li class="sidebar-item"><a href="#" class="sidebar-anchor">My Account</a></li>
+    <li class="sidebar-item"><a href="#" class="sidebar-anchor">About Us</a></li>
+    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Contact Us</a></li>
+  </ul>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
